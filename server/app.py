@@ -25,7 +25,7 @@ def data():
 
 
 @app.route("/predictions")
-def info():
+def information():
     return render_template('index.html')
 
 @app.route("/predictions",methods=['GET','POST'])
